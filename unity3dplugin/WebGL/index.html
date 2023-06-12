@@ -102,7 +102,7 @@
           progressBarFull.style.width = 100 * progress + "%";
         }).then((unityInstance) => {
           loadingBar.style.display = "none";
-	  unityInstance.SendMessage('LoadModelFromURL', 'Send', 'model/1/notexture.fbx');
+	  unityInstance.SendMessage('LoadModelFromURL', 'Send', 'model/notexture.fbx');
           fullscreenButton.onclick = () => {
             unityInstance.SetFullscreen(1);
           };
