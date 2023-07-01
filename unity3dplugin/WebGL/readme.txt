@@ -1,1 +1,0 @@
-index.html?model=model/notexture.fbx
